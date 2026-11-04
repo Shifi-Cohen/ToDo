@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-axios.defaults.baseURL = "http://localhost:5132";
+axios.defaults.baseURL = "https://todo-api-a7dp.onrender.com";
 
 axios.interceptors.response.use(
   (response) => response,
